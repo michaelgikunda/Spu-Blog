@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Addpost l A Leading Christian University</title>
+<link href="logo-small.png" rel="icon" sizes="68x55" type="image/png">
+<link href="css/idea.css" rel="stylesheet">
+<link href="css/addpost.css" rel="stylesheet">
+<script src="javascript/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#image :file").on('change', function()
+   {
+      var input = $(this).parents('.input-group').find(':text');
+      input.val($(this).val());
+   });
+});
+</script>
+</head>
+<body>
+<form action="php/addpost.php" method="post">
+   <div id="wb_Shape1" style="position:absolute;left:118px;top:53px;width:1130px;height:595px;z-index:0;">
+   <img src="images/img0002.png" id="Shape1" alt="" width="1130" height="595" style="width:1130px;height:595px;"></div>
+   <div id="Layer1" style="position:absolute;text-align:left;left:633px;top:53px;width:615px;height:595px;z-index:1;">
+   </div>
+   <div id="wb_Text1" style="position:absolute;left:235px;top:138px;width:271px;height:25px;text-align:center;z-index:2;">
+   <span style="color:#000000;font-family:'DISCIPLINA PERSONAL USE';font-size:20px;">St. Paul's University</span></div>
+   <div id="wb_Text2" style="position:absolute;left:222px;top:193px;width:297px;height:26px;text-align:center;z-index:3;">
+   <span style="color:#000000;font-family:ButterflyWingsDemo;font-size:19px;"><strong>Feal Free to share your Ideas</strong></span></div>
+   <input type="text" id="title" style="position:absolute;left:183px;top:252px;width:367px;height:30px;z-index:4;" name="title" value="" spellcheck="false" placeholder="Eg. The Kardashians">
+   <div id="wb_Text4" style="position:absolute;left:197px;top:236px;width:124px;height:16px;z-index:5;">
+   <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Title</span></div>
+   <div id="wb_Text5" style="position:absolute;left:197px;top:307px;width:124px;height:16px;z-index:6;">
+   <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Content</span></div>
+   <button type="submit" id="submit" name="" value="Continue" class="ui-button ui-corner-all" style="position:absolute;left:183px;top:523px;width:375px;height:37px;z-index:7;">Continue</button>
+   <div id="wb_home" style="position:absolute;left:331px;top:591px;width:77px;height:35px;z-index:8;">
+   <a class="ui-button ui-corner-all" id="home" href="php/home.php" style="width:100%;height:100%;">Home</a></div>
+   <textarea name="content" id="content" style="position:absolute;left:183px;top:323px;width:367px;height:115px;z-index:9;" rows="6" cols="58" spellcheck="false" placeholder="Start writting"></textarea>
+   <div id="image" class="input-group" style="position:absolute;left:186px;top:469px;width:374px;height:40px;z-index:10;">
+   <input class="form-control" type="text" readonly="" id="image-input" placeholder="Profile Image">
+   <label class="input-group-btn">
+   <input type="file" accept=".jpeg,.jpg,.png" name="image" id="image-file" style="display:none;"><span class="btn">Browse...</span>
+   </label>
+   </div>
+</form>
+</body>
+</html>

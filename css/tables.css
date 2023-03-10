@@ -1,0 +1,19 @@
+html{
+    background-color: burlywood;
+    margin-left: 60vh;
+}
+
+#thead{
+    -webkit-text-fill-color: white;
+    font-family: Bahnschrift;
+}
+#tbody{
+    -webkit-text-fill-color: black;
+    font-family: Bahnschrift;
+}
+#theader{
+    background-color: black;
+}
+#bdcolor{
+    border-color: black;
+}

@@ -1,0 +1,379 @@
+body
+{
+   background-color: #885940;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape1
+{
+   filter: drop-shadow(0px 0px 100px rgba(0,0,0,0.31));
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: url('../images/pexels-mesut-çiçen-10909386.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+   border-radius: 20px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#title
+{
+   border: 1px solid #8B4513;
+   border-radius: 4px;
+   background-color: rgba(139,69,19,0.62);
+   background-image: none;
+   color: #000000;
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 30px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#title:focus
+{
+   border-color: #A0522D;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(160,82,45,0.60);
+   outline: 0;
+}
+#title::placeholder
+{
+   color: #000000;
+   opacity: 1;
+}
+#title::-ms-input-placeholder
+{
+   color: #000000;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#submit
+{
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#submit .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#submit.ui-corner-all
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#submit.ui-corner-all
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#submit.ui-button
+{
+   background-color: #8B4513;
+   background-image: none;
+   border: 1px solid #8B4513;
+   color: #000000;
+}
+#submit.ui-state-hover, #submit.ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#submit.ui-state-active, #submit.ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#home
+{
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+}
+#wb_home
+{
+   border-radius: 4px;
+   margin: 0;
+   vertical-align: top;
+}
+#home
+{
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+#wb_home .ui-button
+{
+   display: flex;
+   align-items: center;
+   margin: 0;
+   justify-content: center;
+}
+#home
+{
+   color: #454545;
+   text-decoration: none;
+}
+#home :hover
+{
+   color: #2B2B2B;
+}
+#home :active
+{
+   color: #FFFFFF;
+}
+#wb_home .ui-corner-all, #wb_home .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_home .ui-corner-all, #wb_home .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_home .ui-button
+{
+   background-color: #B78C6D;
+   background-image: none;
+   border: 1px solid #8B4513;
+   color: #454545;
+}
+#wb_home .ui-state-hover, #wb_home .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_home .ui-state-active, #wb_home .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#content
+{
+   border: 1px solid #A0522D;
+   border-radius: 4px;
+   background-color: #B78C6D;
+   background-image: none;
+   color: #000000;
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   overflow: auto;
+   resize: none;
+}
+#content:focus
+{
+   border-color: #8B4513;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(139,69,19,0.60);
+   outline: 0;
+}
+#content::placeholder
+{
+   color: #000000;
+   opacity: 1;
+}
+#content::-ms-input-placeholder
+{
+   color: #000000;
+}
+#image *
+{
+   box-sizing: border-box;
+}
+#image
+{
+   display: table;
+   border-collapse: separate;
+   margin: 0;
+}
+#image .form-control
+{
+   display: block;
+   width: 100%;
+   height: 40px;
+   line-height: 32px;
+   padding: 4px 4px 4px 4px;
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   color: #555555;
+   background-color: #B78C6D;
+   background-image: none;
+   border: 1px solid #A0522D;
+   border-radius: 4px;
+}
+#image .form-control
+{
+   position: relative;
+   z-index: 2;
+   float: left;
+   width: 100%;
+   margin-bottom: 0;
+}
+#image label
+{
+   display: inline-block;
+   margin-bottom: 5px;
+   font-weight: 700;
+}
+#image .input-group-btn, #image .form-control
+{
+   display: table-cell;
+}
+#image :first-child.form-control, #image :first-child.input-group-btn > .btn, #image :first-child.input-group-btn > .btn-group > .btn, #image :last-child.input-group-btn > :not(:last-child):not(.dropdown-toggle).btn, #image :last-child.input-group-btn > :not(:last-child).btn-group > .btn
+{
+   border-bottom-right-radius: 0;
+   border-top-right-radius: 0;
+}
+#image .input-group-btn
+{
+   width: 1%;
+   white-space: nowrap;
+   vertical-align: middle;
+   position: relative;
+   font-size: 0;
+   white-space: nowrap;
+}
+#image .btn
+{
+   display: inline-block;
+   margin-bottom: 0;
+   font-weight: 400;
+   text-align: center;
+   vertical-align: middle;
+   cursor: pointer;
+   background-color: #A0522D;
+   background-image: none;
+   border: 1px solid #A0522D;
+   color: #FFFFFF;
+   white-space: nowrap;
+   padding: 4px 8px 4px 8px;
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 32px;
+   height: 40px;
+}
+#image .input-group-btn > .btn
+{
+   position: relative;
+}
+#image-file:disabled ~ .btn
+{
+   background-color: #e9ecef;
+   border-color: #A0522D;
+   pointer-events: none;
+   color: #A0522D;
+}
+#image :last-child.form-control, #image :last-child.input-group-btn > .btn, #image :last-child.input-group-btn > .btn-group > .btn, #image :first-child.input-group-btn > :not(:first-child).btn, #image :first-child.input-group-btn > :not(:first-child).btn-group > .btn
+{
+   border-bottom-left-radius: 0;
+   border-top-left-radius: 0;
+}
+#image :last-child.input-group-btn > .btn, #image :last-child.input-group-btn > .btn-group
+{
+   margin-left: -1px;
+}
